@@ -46,10 +46,10 @@ function App() {
           <div className='dropzone'>
             <div className='drop-2'>
               <div className='drop-3'>
-              <h1 className='input-text'>Try it out!</h1>
-              <p className='input-text-2'>Drag and drop files here</p>
-              <p>This is just a demo Dropzone. Dropped files are not actually uploaded.</p>
-              <input className="input" type="file" onChange={handleFileChange} />
+                <input className="input" type="file" onChange={handleFileChange} />
+                <h1 className='input-text'>Try it out!</h1>
+                <p className='input-text-2'>Drag and drop files here</p>
+                <p>This is just a demo Dropzone. Dropped files are not actually uploaded.</p>
               </div>
             </div>
           </div>
